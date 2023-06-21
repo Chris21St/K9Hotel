@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">K-9Hotel</string>
+    <string name="texto">Somos una empresa dedicada a brindar servicios de hotel y hospedaje a caninos, manteniendo la salud y estética de sus mascotas, ofreciendo atención de cuidado diario en áreas adecuadas e higiénicas para cubrir necesidades que se requieran en sus mascotas, también ofrecemos entrenamiento personalizado por si su canino tiene malos hábitos con clases totalmente perdonalizadas, con personal sumamente calificado.</string>
+    <string name="imagen">imagen</string>
+    <string name="te">Implementar diferentes paquetes de servicios, desde básicos, hasta otros más especializados para caninos, manteniendo una variedad de precios y  modalidades. Teniendo como especialidad el entrenamiento personalizado a sus mascotas.<br/>
+                               Con paquetes de entrenamiento como:<br/> <br/>
+                              <u>Basico:</u> Cuidado estético y de salud, más derecho a vitaminas y salas de juego, más entrenamiento leve para mejorar principios básicos del canino. <br/>
+                              <u>Normal:</u> Cuidado estético y de salud, más derecho a vitaminas, salas de juego y hospital, más entrenamiento intermedio para mejorar conductas no deseadas del canino. <br/>
+                              <u>Entrenamiento K-9:</u> Cuidado estético y de salud, más derecho a vitami-nas, salas de juego y hospital 24 horas, más entrenamiento intensivo para caninos rebeldes, con comportamientos extremos.
+    </string>
+    <string name="e">Contamos con areas adecuadas para los perros</string>
+    <string name="er">Contamos con el mejor personal adecuado para el cuidado de tus mascotas en nuestras instalaciones.</string>
+    <string name="tet">Ellos merecen una navidad en familia Para estas fechas especiales cuida también de tu canino , Tenemos ofertas especiales para ti Este mes de diciembre si muestras tu comprobante de viaje te hacemos un descuento de un 25% en nuestro paquetes desde básico normal o el entrenamiento k-9.</string>
+    <string name="tar">Número de la tarjeta</string>
+    <string name="fe">Fecha de vencimiento</string>
+    <string name="cvv">CVV</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="corr">Correo electronico</string>
+    <string name="pagar">Pagar</string>
+    <string name="ca">Calle y colonia la Mascota #230, San Salvador San Salvador, El Salvador</string>
+    <string name="quienes_somos">¿Quienes somos?</string>
+    <string name="servicios_y_paquetes">Servicios y paquetes</string>
+    <string name="subscripci_n">subscripción</string>
+    <string name="citas">citas</string>
+    <string name="instalaciones">instalaciones</string>
+    <string name="galeria">galeria</string>
+    <string name="ofertas">ofertas</string>
+    <string name="metodo_de_pago">metodo de pago</string>
+    <string name="contacto">contacto</string>
+    <string name="login">Login</string>
+    <string name="nombre_de_usuario">Nombre de usuario.</string>
+    <string name="contrase_a">Contraseña.</string>
+    <string name="olvido_su_contrase_a">¿Olvido su contraseña?</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="cita">Seleccione el dia de su cita.</string>
+    <string name="se">Seleccione la hora de su cita.</string>
+    <string name="ss">Su cita es el dia,</string>
+</resources>

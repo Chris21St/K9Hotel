@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:scrollbars="vertical"
+        android:padding="25dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:src="@drawable/citas"
+            android:contentDescription="@string/te">
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/cita"
+            android:padding="10dp"
+            android:gravity="center">
+        </TextView>
+
+        <DatePicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleX="0.85"
+            android:scaleY="0.85"
+            android:background="@color/white"
+            android:layout_gravity="center"
+>
+        </DatePicker>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/se"
+            android:padding="10dp"
+            android:gravity="center">
+        </TextView>
+
+        <TimePicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleX="0.85"
+            android:background="@color/white"
+            android:scaleY="0.85">
+        </TimePicker>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ss"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:gravity="center">
+        </TextView>
+
+    </LinearLayout>
+</ScrollView>

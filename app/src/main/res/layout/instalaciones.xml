@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    android:paddingTop="20dp"
+    tools:context=".ActivityInstalaciones">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/instalaciones"
+        android:contentDescription="@string/te">
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/e"
+        android:gravity="center"
+        android:padding="40dp">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/before"
+            android:background="@color/trans"
+            android:id="@+id/before"
+            android:contentDescription="@string/se">
+        </ImageButton>
+
+        <ImageSwitcher
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:id="@+id/imageswitcher"
+            android:inAnimation="@android:anim/slide_in_left"
+            android:outAnimation="@android:anim/slide_out_right">
+        </ImageSwitcher>
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/next"
+            android:background="@color/trans"
+            android:id="@+id/next">
+        </ImageButton>
+
+    </LinearLayout>
+
+</LinearLayout>

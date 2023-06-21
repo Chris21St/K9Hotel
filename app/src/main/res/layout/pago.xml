@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/pago"
+        android:contentDescription="@string/te" />
+
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:gravity="center"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColorHint="@color/anaranjado"
+        android:layout_marginBottom="20dp"
+        android:hint="@string/tar"
+        android:importantForAutofill="no" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:gravity="center"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColorHint="@color/anaranjado"
+            android:layout_marginEnd="10dp"
+            android:hint="@string/fe"
+            android:importantForAutofill="no" />
+        <EditText
+            android:id="@+id/editTextTextPersonName4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColorHint="@color/anaranjado"
+            android:gravity="center"
+            android:hint="@string/cvv"
+            android:importantForAutofill="no" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName1"
+            android:layout_width="183dp"
+            android:textColorHint="@color/anaranjado"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:layout_marginEnd="10dp"
+            android:gravity="center"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:hint="@string/nombre"
+            android:importantForAutofill="no" />
+        <EditText
+            android:id="@+id/editTextTextPersonName5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColorHint="@color/anaranjado"
+            android:inputType="textPersonName"
+            android:gravity="center"
+            android:hint="@string/apellido"
+            android:importantForAutofill="no" />
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/editTextTextPersonName11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColorHint="@color/anaranjado"
+        android:gravity="center"
+        android:hint="@string/corr"
+        android:importantForAutofill="no" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:backgroundTint="@color/anaranjado"
+        android:text="@string/pagar"
+        android:layout_marginTop="20dp">
+    </Button>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img9"
+        android:contentDescription="@string/te">
+    </ImageView>
+
+
+</LinearLayout>
